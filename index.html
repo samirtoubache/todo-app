@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="./styles.css"/>
+
+</head>
+
+<body>
+
+    <div>
+
+        <h1>Todo list app</h1>
+
+        <button class="show-description">website description</button>
+
+        <div id="site-description"></div>
+
+        <br>
+
+        <input type="text" id='search-todo' placeholder="search todo">
+
+        <div id='tasks'></div>
+
+        <br>
+
+        <label>
+            <input type="checkbox" id="hide-completed">
+            <p class="todo-text">Hide Completed Todos</p>
+        </label>
+
+        <br>
+        <br>
+
+        <form id='new-todo'>
+            <input type="text" placeholder="new todo" name="newTodo">
+            <button>Submit</button>
+        </form>
+
+        <br>
+        <br>
+
+    </div>
+
+<script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+<script src="todo-functions.js"></script>
+<script src="todo-app.js"></script>
+
+</body>
+
+</html>

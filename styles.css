@@ -1,0 +1,13 @@
+p {
+    display: inline-block;
+    margin: 10px;
+}
+
+.todo-container {
+    margin: 10px;
+}
+
+body {
+    background-image: url('black-background.jpg');
+    color: white;
+}
