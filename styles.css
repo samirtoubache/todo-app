@@ -1,13 +1,30 @@
+body {
+    background-image: url('black-background.jpg');
+    color: #FFFFFF;
+}
+
 p {
     display: inline-block;
     margin: 10px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #FFFFFF;
 }
 
 .todo-container {
     margin: 10px;
 }
 
-body {
-    background-image: url('black-background.jpg');
-    color: white;
+#site-description {
+    max-width: 100%;
 }
