@@ -10,7 +10,7 @@ body {
 
 p {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 10px;
 }
 
@@ -37,8 +37,27 @@ a:visited {
 
 .todo-container {
     margin: 10px;
+    width: 100%;
 }
 
 #site-description {
     max-width: 100%;
+}
+
+input[type=text] {
+    padding: 5px;
+}
+
+.large-button {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    input[type=text] {
+        padding: 10px;
+    }
+    
+    .large-button {
+        padding: 10px;
+    }
 }

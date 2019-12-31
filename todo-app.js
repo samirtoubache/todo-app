@@ -9,7 +9,7 @@ let displayDescription = false;
 
 renderTodos(todo, filters);
 
-// shows and reveals website description based on button click
+// creates and reveals website description based on button click
 document.querySelector('.show-description').addEventListener('click', () => {
     if (displayDescription === false) {
         const appInfo = document.createElement('p');
@@ -18,7 +18,7 @@ document.querySelector('.show-description').addEventListener('click', () => {
         const gap = document.createElement('br');
         const githubLink = document.createElement('a');
         githubLink.setAttribute('href', 'https://github.com/samirtoubache/todo-app');
-        githubLink.textContent = 'GitHub link: ';
+        githubLink.textContent = 'GitHub link';
 
         document.querySelector('#site-description').appendChild(appInfo);
         document.querySelector('#site-description').appendChild(gap);
