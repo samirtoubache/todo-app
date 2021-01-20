@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-image: url('black-background.jpg');
     color: #FFFFFF;
+    background-color: #000000;
     text-align: center;
 }
 
